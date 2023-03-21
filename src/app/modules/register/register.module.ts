@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RegisterComponent } from './register/register.component';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -14,7 +13,6 @@ const routes: Routes = [
     RegisterComponent
   ],
   imports: [
-    CommonModule,
     RouterModule.forChild(routes)
   ],
   exports:[
